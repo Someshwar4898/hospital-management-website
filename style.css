@@ -1,0 +1,1091 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+a{
+    text-decoration: none;
+}
+
+nav{
+    width: 100%;
+    height: 70px;
+    background-color: #0CB7DB;
+    position: relative;
+    padding: 20px 0px;
+}
+
+.box1{
+
+    width: 33%;
+    height: 70px;
+    float: left;
+    text-align: center;
+}
+
+nav span{
+    font-weight: 400;
+    color: aliceblue;
+}
+nav span:hover{
+    color: black;
+    transition-duration: 2s;
+    cursor: pointer;
+}
+
+nav i{
+    color: aliceblue;
+    margin-right: 10px;
+}
+nav i:hover{
+    color: black;
+    transition: 2s;
+    cursor: pointer;
+}
+
+.box2{
+    width: 33%;
+    height: 70px;
+    float: left;
+    text-align: center; 
+}
+
+
+.box3{
+    width: 33%;
+    height: 70px;
+    float: left;
+    text-align: center;
+}
+
+
+
+header{
+    width: 100%;
+    height: 90vh;
+    background: url(./img/banner-bg.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 300px;    
+}
+
+.first{
+    width: 100%;
+    height: 25vh;
+    background: url(./img/banner-bg.png);
+    background-position: center;
+    background-size: cover;   
+}
+
+.navbx{
+    width: 100%;
+    height: 150px;
+    position: relative;
+}
+
+
+.logo{
+    padding: 30px 0px;
+}
+
+.logo img{
+    width: 10%;
+    height: 30px;
+    margin-left:45% ;
+}
+.logo img:hover{
+    cursor: pointer;
+}
+
+
+.menu{
+    width: 71%;
+    height: 100px;
+    float: left;
+    color: white;
+    padding: 20px 100px;
+    position: relative;
+}
+ul li{
+    list-style-type: none;
+    color: white;
+    float: left;
+    margin-left: 30px;
+    padding-left: 30px;
+    /* margin-top: 20px; */
+    /* font-size: large; */
+}
+ul li :hover{
+    color: #0CB7DB;
+}
+
+
+li a{
+    text-decoration: none;
+    color:  white;
+    font-size: 20px;
+    font-weight: 400;
+
+}
+.login{
+    width: 29%;
+    height: 100px;
+    float: left;
+    padding:20px 0px;
+}
+.login i{
+    color: white;
+}
+.login i:hover{
+    color: #0CB7DB;
+}
+
+
+.con{
+    width: 40%;
+    height: auto;
+    text-align: center;
+    margin-left: 450px;
+}
+
+
+.con h1{
+    font-weight: 700;
+    color: aliceblue;
+    /* letter-spacing: 3px; */
+    font-size: 45px;
+    padding-top:90px ;
+}
+
+
+.con p{
+    font-weight: 200;
+    color: aliceblue;
+    margin-bottom: 30px;
+}
+
+
+.con button{
+    padding: 10px 20px ;
+    border: none;
+    background-color: #0CB7DB;
+    font-weight: 500;
+    color: aliceblue;
+    border-radius: 5px;
+}
+.con button:hover{
+    color: black;
+    background-color: white;
+    cursor: pointer;
+}
+
+.form{
+    width: 80%;
+    height: 350px;
+    background-color: white;
+    position: absolute;
+    top: 500px;
+    left: 160px;
+    border-radius: 3px;
+    box-shadow: 4px 4px 40px 2px #524f4e;
+    padding: 30px 40px;
+}
+.form span{
+    color: #0CB7DB;
+}
+.form h2{
+    color: black;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+
+.e11{
+    width: 100%;
+    height: 600px;
+    background-color: white;
+}
+.cont{
+    width: 540px;
+    height: 300px;
+    float: left;
+    margin-left: 160px;
+    margin-top: 10px;
+    font-size: large;
+    font-weight: bold;
+}
+.cont1{
+    width: 540px;
+    height: 300px;
+    float: left;
+    margin-left: 160px;
+    margin-top: 100px;
+    font-size: large;
+    font-weight: bold;
+}
+.cont h1{
+    font-weight: bold;
+}
+.cont p{
+    margin-top: 40px;
+    font-size: medium;
+    font-weight: normal;
+}
+.cont button{
+    width: 150px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    font-weight: 300;
+    font-size: large;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.cont button:hover{
+    background-color: #0CB7DB;
+    border: none;
+    cursor: pointer;
+}
+.cont1 h1{
+    font-weight: bold;
+}
+.cont1 p{
+    margin-top: 40px;
+    font-size: medium;
+    font-weight: normal;
+}
+.cont1 button{
+    width: 150px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    font-weight: 300;
+    font-size: large;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.cont1 button:hover{
+    background-color: #0CB7DB;
+    border: none;
+    cursor: pointer;
+}
+.image{
+    margin-top: 5px;
+    margin-left: 30px;
+    float: left;
+    width: 540px;
+    height: 300px;
+}
+.image1{
+    margin-top: 80px;
+    margin-left: 30px;
+    float: left;
+    width: 540px;
+    height: 300px;
+}
+.contimg{
+    width: 200px;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    margin: 0px;
+}
+
+.b1{
+    float: left;
+    margin-top: 20px;
+}
+.b2{
+    float: left;
+    margin-left: 60px;
+    margin-top: 20px;
+}.b3{
+    float: left;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+label{
+    font-size: larger;
+}
+input{
+    height: 40px;
+    width: 300px;
+    margin-top: 10px;
+    font-size: larger;
+    padding-left: 10px;
+}
+select{
+    font-weight: bolder;
+    height: 40px;
+    width: 300px;
+    margin-top: 10px;
+    font-size: larger;
+}
+.treatment{
+    width: 100%;
+    height: 400px;
+    font-size: large;
+}
+.treatment h1{
+    text-align: center;
+    font-weight: bold;
+}
+.treatment1{
+    width: 100%;
+    height: 500px;
+    font-size: large;
+    margin-top: 100px;
+}
+.treatment1 h1{
+    text-align: center;
+    font-weight: bold;
+}
+.ncare{
+    float: left;
+    margin-left: 160px;
+    width: 320px;
+    margin-top: 50px;
+}
+.ncare h1{
+    text-align: left;
+    font-size: 50px;
+}
+.ncare h3{
+    font-weight: bold;
+    font-size: 30px;
+}
+.ncare p{
+    margin-top: 20px;
+}
+.ncare button{
+    width: 200px;
+    height: 50px;
+    background-color: white;
+    font-size: large;
+    font-weight: 400;
+    margin-top: 30px;
+}
+.ncare button:hover{
+    color: #0CB7DB;
+    border: solid;
+    border-color: #0CB7DB ;
+    cursor: pointer;
+}
+.ecare{
+    float: left;
+    margin-left: 40px;
+    width: 220px;
+    margin-top: 50px;
+}
+.ecare h1{
+    text-align: left;
+    font-size: 50px;
+}
+.ecare h3{
+    font-weight: bold;
+    font-size: 30px;
+}
+.ecare p{
+    margin-top: 20px;
+}
+.ecare button{
+    width: 200px;
+    height: 50px;
+    background-color: white;
+    font-size: large;
+    font-weight: 400;
+    margin-top: 30px;
+}
+.ecare button:hover{
+    color: #0CB7DB;
+    border: solid;
+    border-color: #0CB7DB ;
+    cursor: pointer;
+}
+.pclinic{
+    float: left;
+    margin-left: 40px;
+    width: 300px;
+    margin-top: 50px;
+}
+.pclinic h1{
+    text-align: left;
+    font-size: 50px;
+}
+.pclinic h3{
+    font-weight: bold;
+    font-size: 30px;
+}
+.pclinic p{
+    margin-top: 20px;
+    width: 220px;
+}
+.pclinic button{
+    width: 200px;
+    height: 50px;
+    background-color: white;
+    font-size: large;
+    font-weight: 400;
+    margin-top: 30px;
+}
+.pclinic button:hover{
+    color: #0CB7DB;
+    border: solid;
+    border-color: #0CB7DB ;
+    cursor: pointer;
+}
+.pcare{
+    float: left;
+    margin-left: 40px;
+    width: 220px;
+    margin-top: 50px;
+}
+.pcare h1{
+    text-align: left;
+    font-size: 50px;
+}
+.pcare h3{
+    font-weight: bold;
+    font-size: 30px;
+}
+.pcare p{
+    margin-top: 20px;
+}
+.pcare button{
+    width: 200px;
+    height: 50px;
+    background-color: white;
+    font-size: large;
+    font-weight: 400;
+    margin-top: 30px;
+}
+.pcare button:hover{
+    color: #0CB7DB;
+    border: solid;
+    border-color: #0CB7DB ;
+    cursor: pointer;
+}
+.doctors{
+    width: 100%;
+    height: 750px;
+    background-color: rgb(26, 50, 55);
+    border-radius: 100px;
+    margin-top: 100px;
+}
+.doctors i:hover{
+    cursor: pointer;
+    transition: 1s;
+}
+.doctors h1{
+    font-size: 60px;
+    font-weight: 800;
+    color: white;
+    text-align: center;
+    padding-top: 80px;
+}
+.doctors1{
+    width: 100%;
+    height: 750px;
+    background-color: rgb(26, 50, 55);
+    border-radius: 100px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.doctors1 i:hover{
+    cursor: pointer;
+    transition: 1s;
+}
+.doctors1 h1{
+    font-size: 60px;
+    font-weight: 800;
+    color: white;
+    text-align: center;
+    padding-top: 80px;
+}
+.humour{
+    width: 400px;
+    height:  500px;
+    float: left;
+}
+.himg{
+    width: 300px;
+    height: 200px;
+}
+.him{
+    float: left;
+    position: absolute;
+    margin-left: 225px;
+    margin-top: 40px;
+}
+.him img{
+    width: 300px;
+    height: 300px;
+}
+.hcon{
+    width: 350px;
+    height: 450px;
+    background-color: white;
+    margin-left: 200px;
+    position: relative;
+    float: left;
+    margin-top: 80px;
+}
+.hcon h2{
+    color: #0CB7DB;
+    width: 100px;
+    height: 60px;
+    font-weight: 600;
+    text-align: center;
+    margin-left: 130px;
+    padding-top: 280px;
+}
+.hicon{
+    width: 150px;
+    height: 30px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 110px;
+    margin-top: 100px;
+    font-size: 20px;
+}
+.hicon i{
+    color: black;
+}
+.hicon i:hover{
+    color: #0CB7DB;
+}
+.jenna{
+    width: 400px;
+    height: 500px;
+    float: left;
+    margin-left: 180px;
+}
+.jimg{
+    width: 350px;
+    height: 200px;
+}
+.jim{
+    float: left;
+    position: absolute;
+    margin-left: 55px;
+    margin-top: 40px;
+}
+.jim img{
+    width: 300px;
+    height: 300px;
+}
+.jcon{
+    width: 350px;
+    height: 450px;
+    background-color: white;
+    margin-left: 30px;
+    position: relative;
+    float: left;
+    margin-top: 80px;
+}
+.jcon h2{
+    color: #0CB7DB;
+    width: 100px;
+    height: 60px;
+    font-weight: 600;
+    text-align: center;
+    margin-left: 130px;
+    padding-top: 280px;
+}
+.jicon{
+    width: 150px;
+    height: 30px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 110px;
+    margin-top: 100px;
+    font-size: 20px;
+}
+.jicon i{
+    color: black;
+}
+.jicon i:hover{
+    color: #0CB7DB;
+}
+.morco{
+    width: 400px;
+    height: 500px;
+    float: left;
+}
+.mimg{
+    width: 350px;
+    height: 200px;
+}
+.mim{
+    float: left;
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 40px;
+}
+.mim img{
+    width: 300px;
+    height: 300px;
+}
+.mcon{
+    width: 350px;
+    height: 450px;
+    background-color: white;
+    margin-left: 30px;
+    position: relative;
+    float: left;
+    margin-top: 80px;
+}
+.mcon h2{
+    color: #0CB7DB;
+    width: 100px;
+    height: 60px;
+    font-weight: 600;
+    text-align: center;
+    margin-left: 130px;
+    padding-top: 280px;
+}
+.micon{
+    width: 150px;
+    height: 30px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 110px;
+    margin-top: 100px;
+    font-size: 20px;
+}
+.micon i{
+    color: black;
+}
+.micon i:hover{
+    color: #0CB7DB;
+}
+.test{
+    width: 100%;
+    height: 400px;
+    margin-top: 100px;
+    font-size: large;
+}
+.test h1{
+    font-weight: 800;
+    margin-left: 160px; 
+}
+.mori{
+    width: 1100px;
+    height: 250px;
+    border: 5px solid whitesmoke;
+    margin-top: 80px;
+    margin-left: 200px;
+}
+.mori h4{
+    font-size: 25px;
+    font-weight: 600;
+    color: #0CB7DB;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.mori h5{
+    margin-left: 40px;
+    color: #524f4e;
+    margin-top: 10px;
+}
+.mori p{
+    margin-left: 40px;
+    margin-top: 20px;
+    width: 1000px;
+}
+.other{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.contact{
+    width: 550px;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 2;
+}
+.contact h1{
+    font-weight: 700;
+    font-size: 40px;
+    padding-top: 0px;
+}
+form{
+    width: 650px;
+    height: 550px;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+
+}
+form input{
+    width: 700px;
+    height: 50px;
+    margin-bottom: 0px;
+}
+.contact textarea{
+    width: 650px;
+    height: 100px;
+    font-size: larger;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.contact button{
+    width: 150px;
+    height: 60px;
+    background-color: black;
+    color: white;
+    font-size: larger;
+    border: none;
+    font-weight: 600;
+    text-align: center;
+}
+.contact button:hover{
+    background-color: #0CB7DB;
+    color: white;
+    transition: 0.7s;
+}
+
+.v{
+    margin-top: 40px;
+}
+
+.map{
+    width: 600px;
+    height: 600px;
+    padding-right:200px;
+}
+.map iframe{
+    width: 700px;
+    height: 600px;
+    margin-top: 60px;
+    
+}
+.end{
+    width: 100%;
+    height: 75vh;
+    padding-top: 80px;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.mail{
+    width: 700px;
+    height: 50px;
+}
+.mail input{
+    border: 1px solid transparent ;
+    width: 545px;
+    color: white;
+    font-weight: 400;
+    text-decoration: white;
+    background-color: transparent;
+}
+input place{
+    color: white;
+}
+.mail button{
+    color: white;
+    width: 150px;
+    height: 40px;
+    font-weight: 500;
+    font-size: large;
+    border: none;
+    background-color: black;
+}
+.mail button:hover{
+    color: #0CB7DB;
+
+}
+hr{
+    width: 100%;
+    height: 1px;
+    border: white;
+    background-color: white;
+    margin-top: 5px;
+}
+.info{
+    width: 90%;
+    height: 400px;
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+.address{
+    width: 310px;
+    height: 50px;
+}
+.addres{
+    width: 310px;
+    height: 300px;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-evenly;
+}
+.address h1{
+    width: 310px;
+    height: 50px;
+    font-weight: 700;
+    font-size: 25px;
+    padding-left: 60px;
+}
+.address h1 i{
+    font-size: 25px;
+}
+.addres ul{
+    width: 310px;
+    height: 150px;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+.address ul li{
+    width: 310px;
+    height: 50px;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-around;
+}
+.address ul li:hover{
+    color: #0CB7DB;
+}
+.uicon {
+    width: 200px;
+    height: 100px;
+    font-size: 25px;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+}
+.uicon i{
+    color: #0CB7DB;
+}
+.uicon i:hover{
+    color: white;
+    transition: 1s;
+}
+.links{
+    width: 300px;
+    height: 300px;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-evenly;
+}
+.nm h1{
+    width: 300px;
+    height: 50px;
+    font-weight: 700;
+    font-size: 25px;
+    text-align: center;
+}
+.nm h1 i{
+    font-size: 25px;
+}
+.links ul{
+    width: 300px;
+    height: 200px;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+}
+.links ul li{
+    width: 300px;
+    font-weight: bolder;
+}
+.links ul li:hover{
+    color: #0CB7DB;
+}
+.free{
+    width: 300px;
+    height: 50px;
+}
+.help{
+    width: 300px;
+    height: 300px;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-evenly;
+}
+.hm h1{
+    width: 300px;
+    height: 50px;
+    font-weight: 700;
+    font-size: 25px;
+    text-align: center;
+}
+.hm h1 i{
+    font-size: 25px;
+}
+.help p{
+    width: 255px;
+    height: 150px;
+    font-weight: bolder;
+}
+.free2{
+    width: 300px;
+    height: 100px;
+}
+.news{
+    width: 300px;
+    height: 300px;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-evenly;
+}
+.wm h1{
+    width: 250px;
+    height: 50px;
+    font-weight: 700;
+    font-size: 25px;
+}
+.wm h1 i{
+    font-size: 25px;
+}
+.new{
+    width: 260px;
+    height: 230px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+}
+.new p{
+    font-weight: bolder;
+    width: 130px;
+    height: 90px;
+    text-align: left;
+    padding-top: 30px;
+}
+.free3{
+    width: 300px;
+    height: 30px;
+}
+footer{
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+footer p{
+    font-weight: bolder;
+}
+footer a{
+    text-decoration: none;
+    font-weight: 400;
+    color: black;
+}
+footer a:hover{
+    color: red;
+}
+.read{
+    width: 100%;
+    height: 600px;
+    font-size: large;
+    margin-top: 100px;
+}
+.read h1{
+    text-align: center;
+    font-weight: bold;
+}
+.write{
+    background-image: url();
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-between;
+}
+.write p{
+    width: 80%;
+
+    font-weight: 400;
+    text-align: center;
+}
+@media screen and (max-width:1400) {
+    nav{
+        background-color: #0CB7DB;
+        position: relative;
+        padding: 10px 0px;
+    }
+    header{
+        background: url(./img/banner-bg.png);
+        background-position: center;
+        background-size: cover;
+        position: relative;
+        margin-bottom: 100px;    
+    }
+    .menu{
+        float: left;
+        color: white;
+        padding: 10px 50px;
+        position: relative;
+    }
+    ul li{
+        list-style-type: none;
+        color: white;
+        float: left;
+        margin-left: 15px;
+        padding-left: 15px;
+        /* margin-top: 20px; */
+        /* font-size: large; */
+    }
+    .con{
+        text-align: center;
+        margin-left: 20px;
+    }
+    .form{
+        background-color: white;
+        position: absolute;
+        top: 250px;
+        left: 80px;
+        border-radius: 3px;
+        box-shadow: 4px 4px 40px 2px #524f4e;
+        padding: 15px 20px;
+    }
+    .cont{
+        width: 540px;
+        height: 300px;
+        float: left;
+        margin-left: 80px;
+        margin-top: 5px;
+        font-size: large;
+        font-weight: bold;
+    }
+    .contimg{
+        width: 100px;
+        height: 150px;
+        background-position: center;
+        background-size: cover;
+        margin: 0px;
+    }
+    .doctors{
+        background-color: rgb(26, 50, 55);
+        border-radius: 100px;
+        margin-top: 20px;
+    }
+}
