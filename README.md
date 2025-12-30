@@ -4,6 +4,10 @@ A front-end user interface prototype for a hospital dashboard, built using seman
 
 Live Demo: https://someshwar4898.github.io/hospital-management-website/
 
+## About This Project
+This project was created to practice semantic structure, form layouts, and responsive grid design.
+All markup and styling were written manually without backend functionality.
+
 ## Features
 - Semantic HTML5 structure for accessibility
 - Form layouts for patient and service information
